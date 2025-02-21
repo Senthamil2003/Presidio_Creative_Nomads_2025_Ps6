@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "title": "WHAT'S SETS US APART !",
+    "description": "Discover the groundbreaking features that make the PlayStation 6 the ultimate gaming console. From stunning 8K visuals to intelligent AI-driven gameplay, every element is designed to immerse you in a world of unparalleled realism and performance."
+  },
+  {
+    "id": 1,
+    "title": "8K Ultra HD Graphics",
+    "description": "Experience breathtaking visuals like never before with true 8K Ultra HD resolution. Every detail, from lifelike character expressions to stunning open-world environments, is rendered with unparalleled clarity and depth, making your games more immersive than ever."
+  },
+  {
+    "id": 2,
+    "title": "Next-Gen Ray Tracing",
+    "description": "Step into a world of real-time lighting and reflections with the most advanced ray tracing technology. Enjoy hyper-realistic shadows, reflections, and global illumination that bring your favorite games to life with cinematic-level realism."
+  },
+  {
+    "id": 3,
+    "title": "AI-Powered Gameplay",
+    "description": "Harness the power of cutting-edge AI that adapts to your playstyle, creating more dynamic enemies, smarter NPCs, and unpredictable challenges. The PS6 revolutionizes gaming with self-learning AI that makes every playthrough unique and engaging."
+  },
+  {
+    "id": 4,
+    "title": "DualSense 2 Control",
+    "description": "Feel every moment like never before with the enhanced DualSense 2 controller. Featuring next-gen haptic feedback, improved adaptive triggers, and precision motion sensors, the PS6 delivers unmatched control and responsiveness, pulling you deeper."
+  },
+  {
+    "id": 5,
+    "title": "SSD 3.0 Speed",
+    "description": "Say goodbye to loading screens with the lightning-fast SSD 3.0. Games load in an instant, worlds render seamlessly, and transitions are smoother than ever. With speeds that redefine next-gen gaming, every second counts in your immersive experience."
+  }
+]

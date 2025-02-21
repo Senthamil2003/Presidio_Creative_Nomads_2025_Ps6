@@ -1,0 +1,138 @@
+@use "./assets/styles/_typography.scss" as *;
+@use "./assets/styles/_colors.scss" as *;
+@use "./assets/styles/styleassets" as *;
+.App {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @include body-font;
+
+  height: auto;
+}
+.head-content {
+  @include head-font;
+}
+.small-head-content {
+  @include small-head-font;
+}
+.h1-content {
+  @include button-font-h1;
+}
+.h2-content {
+  @include button-font-h2;
+}
+.smaller-head-content {
+  @include smaller-head-font;
+}
+button {
+  @include button-outliner;
+  font-weight: 100 !important;
+
+  font-size: 14px !important;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+.btn-img-cont {
+  display: flex;
+  align-items: center;
+  img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+  }
+}
+button:hover span {
+  transform: scale(1.1);
+}
+@media (max-width: 1250px) {
+  .feature-content-container {
+    flex-wrap: wrap;
+  }
+  .feature-box-cont {
+    position: static;
+
+    max-width: 100%;
+  }
+  .feature-cont {
+    padding: 35px;
+    width: 50% !important;
+  }
+  .focus-box-tot-cont {
+    
+    flex-basis: 100%;
+
+    overflow: hidden;
+    border: 1px solid blue !important;
+  }
+}
+@media (max-width: 870px) {
+  .home-content-container {
+    flex-direction: column-reverse;
+  }
+
+  .box-animation-cont {
+    margin: 0;
+    padding: 0;
+  }
+  .feature-cont,
+  .feature-right {
+    flex-basis: 50% !important;
+    flex: 1 !important;
+  }
+  .feature-box-cont{
+    justify-content: start !important;
+    padding: 0 !important;
+    img{
+      width: 80% !important;
+      height: 40px !important;
+      object-fit: cover !important;
+    }
+    p{
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .home-left {
+    width: fit-content !important;
+    padding: 30px;
+  }
+  .box-animation-cont {
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+  }
+  .feature-right {
+    height: auto !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    width: 100%;
+    display: flex !important;
+  }
+  .earbud-cont {
+    right: 0 !important;
+    bottom: 0 !important;
+    height: 100px !important;
+  }
+  .bottom-img-cont {
+    height: 210px !important;
+  }
+  .home-btn-cont {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

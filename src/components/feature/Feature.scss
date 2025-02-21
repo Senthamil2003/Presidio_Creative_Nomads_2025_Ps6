@@ -1,0 +1,119 @@
+.feature-tot-cont {
+  min-height: 100vh;
+  background-color: #050815;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // * {
+  //   border: 1px solid white;
+  // }
+
+  scroll-snap-align: start;
+}
+.feature-content-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+
+  // gap: 40px;
+}
+
+.feature-head {
+  text-align: center;
+
+  margin-bottom: 15px;
+}
+.feature-cont {
+  width: 23.5%;
+  top: 45px;
+  min-height: 380px;
+
+  position: relative;
+}
+.focus-box-tot-cont {
+  height: 100%;
+  position: relative;
+}
+.focus-box-tot-cont::before {
+  content: "";
+  top: 0;
+  z-index: 2;
+  position: absolute;
+  height: 100%;
+  width: 80px;
+  background-image: linear-gradient(to right, black, transparent);
+}
+.feature-btn {
+  position: absolute;
+
+  bottom: 0;
+}
+.feature-right {
+  height: 100%;
+  position: relative;
+  right: 0;
+}
+.bottom-img-cont {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  img {
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.earbud-cont {
+  position: relative;
+
+  top: 50px;
+  right: 60px;
+  height: 180px;
+  img {
+    height: 100%;
+  }
+}
+
+.feature-box-cont {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 70px;
+  background-image: linear-gradient(to left, #01061f, #031a85);
+  box-shadow: 0 1px 8px 5px #031a85;
+  margin: 38px 0;
+  padding: 10px;
+  cursor: pointer;
+  // justify-content: space-between;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.feature-focus-cont {
+  display: flex;
+  align-items: center;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.bottom-img-cont::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  background-image: linear-gradient(to left, #050816, transparent);
+  height: 100%;
+  width: 70px;
+}
+.feature-box-cont:hover {
+  transform: scale(1.05);
+  box-shadow: 0 1px 8px 11px #0523a5;
+}

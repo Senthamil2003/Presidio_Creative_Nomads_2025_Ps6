@@ -1,0 +1,59 @@
+@use "../../assets/styles/styleassets" as *;
+@use "../../assets/styles/typography" as *;
+
+.logo-cont {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.nav-cont {
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 0px;
+  position: relative;
+  button {
+    height: 40px;
+  }
+}
+.nav-cont::before {
+  position: absolute;
+  bottom: 0;
+
+  content: "";
+  height: 3px;
+  translate: (50%, 50%);
+  width: 89.5%;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #3f4fb5,
+    #3f4fb5,
+    transparent
+  );
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.outline-button {
+  @include button-outliner;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 13px 25px;
+  img {
+    height: 20px;
+  }
+}
+.nav-menu {
+  ul {
+    cursor: pointer;
+  }
+}
