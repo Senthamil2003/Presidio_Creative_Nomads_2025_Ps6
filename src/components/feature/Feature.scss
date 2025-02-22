@@ -12,12 +12,14 @@
 
   scroll-snap-align: start;
 }
+
 .feature-content-container {
   display: flex;
   align-items: center;
   position: relative;
   justify-content: space-between;
 
+ 
   // gap: 40px;
 }
 
@@ -30,6 +32,7 @@
   width: 23.5%;
   top: 45px;
   min-height: 380px;
+  
 
   position: relative;
 }
@@ -85,7 +88,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  height: 70px;
+  height: 60px;
   background-image: linear-gradient(to left, #01061f, #031a85);
   box-shadow: 0 1px 8px 5px #031a85;
   margin: 38px 0;
@@ -97,10 +100,11 @@
 .feature-focus-cont {
   display: flex;
   align-items: center;
+  height: 65px;
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 

@@ -3,8 +3,8 @@ import "./Feature.scss";
 import bottomimg from "../../assets/images/Rectangle 16.png";
 import earbud from "../../assets/images/earbuds.png";
 import Button from "../reusables/Button";
-import glass from "../../assets/images/Glasses.png";
-import dglass from "../../assets/images/Glasses (1).png";
+import dpoint from "../../assets/images/Natural User Interface 2 (1).png";
+import point from "../../assets/images/Natural User Interface 2.png";
 import FeatureBoxContainer from "./FeatureBoxContainer";
 import data from "../../assets/data/feature.json";
 
@@ -40,7 +40,7 @@ export default function Feature() {
             {content[currentIndex]?.description}
           </p>
           <div className="feature-btn">
-            <Button content="MORE FEATURES" img={glass} dimg={dglass} />
+            <Button content="MORE FEATURES" img={point} dimg={dpoint} />
           </div>
         </div>
         <div className="feature-right">

@@ -17,7 +17,7 @@
   font-size: clamp(15px, 2vw, 28px); // 65% of max
 }
 
-@mixin body-font($fontsize: 24px, $fontweight: 200) {
+@mixin body-font($fontsize: 22px, $fontweight: 200) {
   $minFontSize: $fontsize * 0.75; // 75% of max size
   font-family: "Darker Grotesque", serif;
   font-optical-sizing: auto;

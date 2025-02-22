@@ -2,7 +2,7 @@
 @use "../../assets/styles/typography" as *;
 
 .logo-cont {
-  height: 60px;
+  height: 55px;
   display: flex;
   align-items: center;
 }
@@ -51,6 +51,31 @@
   img {
     height: 20px;
   }
+}
+.mobile-nav-item {
+  position: absolute;
+
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  right: 0;
+  top: 35px;
+  backdrop-filter: blur(9.7px);
+  background-color: #060c3f80;
+
+  ul {
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 8px;
+    margin: 10px;
+    position: relative;
+    border: 0.5px solid rgb(225, 219, 219);
+  }
+}
+.ham-menu {
+  display: none ;
+}
+.ham-menu {
 }
 .nav-menu {
   ul {

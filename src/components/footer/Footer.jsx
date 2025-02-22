@@ -1,9 +1,9 @@
 import "./Footer.scss";
 import playstation from "../../assets/images/playstationlogo.png";
-import insta from "../../assets/images/instagram.png";
-import twitter from "../../assets/images/x.png";
-import facebook from "../../assets/images/facebook.png";
-import youtube from "../../assets/images/youtube.png";
+import insta from "../../assets/images/Instagram.png";
+import twitter from "../../assets/images/X.png";
+import facebook from "../../assets/images/Facebook.png";
+import youtube from "../../assets/images/YouTube.png";
 import globe from "../../assets/images/globe.png";
 
 export default function Footer() {

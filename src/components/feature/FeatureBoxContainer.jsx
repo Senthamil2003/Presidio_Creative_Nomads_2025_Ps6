@@ -9,10 +9,10 @@ import img5 from "../../assets/images/image 22.png";
 export default function FeatureBoxContainer({ changeIndex }) {
   // Define your feature data in an array
   const features = [
-    { img: img1, content: "8K Ultra HD Graphics", width: 110 },
-    { img: img2, content: "Next-Gen Ray Tracing", width: 95 },
-    { img: img3, content: "AI-Powered Gameplay", width: 70 },
-    { img: img4, content: "DualSense 2 Control", width: 52 },
+    { img: img1, content: "8K Ultra HD Graphics", width: 115 },
+    { img: img2, content: "Next-Gen Ray Tracing", width: 100 },
+    { img: img3, content: "AI-Powered Gameplay", width: 75 },
+    { img: img4, content: "DualSense 2 Control", width: 58 },
     { img: img5, content: "SSD 3.0 Speed", width: 38 },
   ];
 

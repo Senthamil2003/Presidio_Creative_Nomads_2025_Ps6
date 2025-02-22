@@ -1,4 +1,4 @@
-import "./dualcontroller.scss";
+import "./Dualcontroller.scss";
 import img1 from "../../assets/images/image 2.png";
 import img2 from "../../assets/images/image 3.png";
 import img3 from "../../assets/images/image 4.png";
