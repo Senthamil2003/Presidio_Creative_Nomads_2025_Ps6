@@ -1,6 +1,6 @@
 import Nav from "../navbar/Nav";
 import "./Home.scss";
-import playstation6 from "../../assets/images/ps.png";
+import playstation6 from "../../assets/images/ps1.png";
 import pay from "../../assets/images/Pay.png";
 import glass from "../../assets/images/Glasses.png";
 import dglass from "../../assets/images/Glasses (1).png";

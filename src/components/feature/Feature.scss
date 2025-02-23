@@ -1,6 +1,7 @@
+@use "../../assets/styles/colors" as *;
 .feature-tot-cont {
   min-height: 100vh;
-  background-color: #050815;
+  background-color: $background-color;
 
   position: relative;
   display: flex;

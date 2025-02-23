@@ -1,5 +1,7 @@
+@use "../../assets/styles/colors" as *;
+
 .footer-tot-cont {
-  background-color: #050815;
+  background-color: $background-color;
   padding: 20px 50px;
   font-size: 19px;
   scroll-snap-align: start;

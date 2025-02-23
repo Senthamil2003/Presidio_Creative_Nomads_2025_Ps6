@@ -11,14 +11,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 
 body {
   @include body-font;
-
-  height: auto;
+  scroll-behavior: smooth !important;
+ 
 }
 .head-content {
   @include head-font;
@@ -64,7 +62,6 @@ button:hover span {
   .feature-box-cont:nth-of-type(1) {
     width: 98% !important;
   }
-
   .feature-box-cont:nth-of-type(2) {
     width: 90% !important;
   }
@@ -112,7 +109,15 @@ button:hover span {
     overflow: hidden;
   }
 }
+@media (max-width: 1150px) {
+  .home-content-container {
+    padding: 30px;
+  }
+}
 @media (max-width: 1000px) {
+  .nav-cont::before {
+    width: 100% !important;
+  }
   .nav-menu {
     display: none !important;
   }
@@ -143,6 +148,9 @@ button:hover span {
   }
 }
 @media (max-width: 870px) {
+  .home-content-container {
+    padding: 0;
+  }
   .logo-cont {
     height: 40px !important;
     padding-left: 6px;
@@ -204,8 +212,14 @@ button:hover span {
   }
 }
 @media (max-width: 500px) {
+  .game-title {
+    bottom: 0 !important;
+  }
+  .footer-content-cont {
+    gap: 5px;
+  }
   .footer-content {
-    width: calc(100% / 2) !important;
+    width: calc(100% / 2 - 5px) !important;
   }
   .feature-btn {
     padding-left: 20px;
