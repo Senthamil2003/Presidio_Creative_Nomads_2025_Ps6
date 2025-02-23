@@ -17,7 +17,7 @@ export default function Home() {
           <p className="h1-content home-h2-txt">The Future Gaming Is Here</p>
           <hr className="home-line" />
           <p className="head-content head-txt">
-            Introducing PlayStation 6 with Power and Precision
+            Introducing PlayStation 6 with Power and Precision 
           </p>
           <p className="h2-content home-text">
             A New Era of Gaming Begins, Where Every Moment Feels More Real,

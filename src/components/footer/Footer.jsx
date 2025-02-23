@@ -8,7 +8,7 @@ import globe from "../../assets/images/globe.png";
 
 export default function Footer() {
   return (
-    <div className="footer-tot-cont">
+    <div className="footer-tot-cont" id="contact">
       <div className="footer-head">
         <img src={playstation} alt="logo" />
         <p className="small-head-content">playstation</p>

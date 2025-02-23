@@ -6,4 +6,5 @@
 :root {
   --animate-duration: 800ms;
   --animate-delay: 0.9s;
+  scroll-behavior: smooth;
 }
