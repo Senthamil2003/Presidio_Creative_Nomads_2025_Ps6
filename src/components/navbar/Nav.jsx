@@ -17,19 +17,19 @@ export default function Nav() {
       </div>
       <div className="nav-menu">
         <a href="#home">
-          <ul className="nav-item">Playstation 6</ul>
+          <ul className="nav-item">PLAYSTATION 6</ul>
         </a>
         <a href="#features">
-          <ul className="nav-item">Features</ul>
+          <ul className="nav-item">FEATURES</ul>
         </a>
         <a href="#games">
-          <ul className="nav-item">Games</ul>
+          <ul className="nav-item">GAMES</ul>
         </a>
         <a href="#dual">
-          <ul className="nav-item">Accessories</ul>
+          <ul className="nav-item">ACCESSORIES</ul>
         </a>
         <a href="#contact">
-          <ul className="nav-item">Contact</ul>
+          <ul className="nav-item">CONTACT</ul>
         </a>
       </div>
 
@@ -43,19 +43,19 @@ export default function Nav() {
         {isOpen && (
           <div className="mobile-nav-item">
             <a href="#home">
-              <ul className="nav-item">Playstation 6</ul>
+              <ul className="nav-item">PLAYSTATION 6</ul>
             </a>
             <a href="#features">
-              <ul className="nav-item">Features</ul>
+              <ul className="nav-item">FEATURES</ul>
             </a>
             <a href="#games">
-              <ul className="nav-item">Games</ul>
+              <ul className="nav-item">GAMES</ul>
             </a>
             <a href="#dual">
-              <ul className="nav-item">Accessories</ul>
+              <ul className="nav-item">ACCESSORIES</ul>
             </a>
             <a href="#contact">
-              <ul className="nav-item">Contact</ul>
+              <ul className="nav-item">CONTACT</ul>
             </a>
           </div>
         )}
